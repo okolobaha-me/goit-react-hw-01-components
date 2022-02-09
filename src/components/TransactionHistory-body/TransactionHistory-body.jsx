@@ -1,14 +1,17 @@
+import TransactionHistoryBodyRow from '../TransactionHistory-body-row/TransactionHistory-body-row';
 import PropTypes from 'prop-types';
 
 function TransactionHistoryBody({ transactions }) {
   return (
     <tbody>
       {transactions.map(transaction => (
-        <tr key={transaction.id}>
-          <td>{`${transaction.type}`}</td>
-          <td>{`${transaction.amount}`}</td>
-          <td>{`${transaction.currency}`}</td>
-        </tr>
+        <TransactionHistoryBodyRow
+          key={transaction.id}
+          id={transaction.id}
+          currency={transaction.currency}
+          amount={transaction.amount}
+          type={transaction.type}
+        />
       ))}
     </tbody>
   );
