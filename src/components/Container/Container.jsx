@@ -11,6 +11,7 @@ import transactionHistory from '../transactions.json';
 function Container() {
   return (
     <div className={s.container}>
+      <FriendList friendsList={friends} />
       <div>
         <Profile
           username={user.username}
@@ -21,7 +22,6 @@ function Container() {
         />
         <StatisticList stats={data} />
       </div>
-      <FriendList friendsList={friends} />
       <TransactionHistory transactionList={transactionHistory} />
     </div>
   );
