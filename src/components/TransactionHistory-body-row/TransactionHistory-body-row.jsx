@@ -3,7 +3,7 @@ import s from './TransactionHistory-body-row.module.css';
 
 function TransactionHistoryBodyRow({ id, type, amount, currency }) {
   return (
-    <tr key={id}>
+    <tr key={id} className={`${s.line}`}>
       <td>{`${type}`}</td>
       <td>{`${amount}`}</td>
       <td>{`${currency}`}</td>

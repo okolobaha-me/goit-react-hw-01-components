@@ -7,9 +7,9 @@ function TransactionHistory({ transactionList }) {
     <table className="transaction-history">
       <thead>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={`${s.headLine}`}>Type</th>
+          <th className={`${s.headLine}`}>Amount</th>
+          <th className={`${s.headLine}`}>Currency</th>
         </tr>
       </thead>
       <TransactionHistoryBody transactions={transactionList} />

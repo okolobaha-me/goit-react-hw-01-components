@@ -1,7 +1,7 @@
-tr {
+.line {
   text-align: center;
 }
 
-tr:nth-child(2n-2) {
+.line:nth-child(2n-2) {
   background-color: #eaeff3;
 }
