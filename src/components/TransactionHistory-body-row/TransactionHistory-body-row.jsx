@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import s from './TransactionHistory-body-row.module.css';
 
 function TransactionHistoryBodyRow({ id, type, amount, currency }) {
   return (
