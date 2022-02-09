@@ -1,5 +1,6 @@
 import TransactionHistoryBodyRow from '../TransactionHistory-body-row/TransactionHistory-body-row';
 import PropTypes from 'prop-types';
+import s from './TransactionHistory-body.module.css';
 
 function TransactionHistoryBody({ transactions }) {
   return (
