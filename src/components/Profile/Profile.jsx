@@ -33,7 +33,7 @@ export default Profile;
 Profile.propTypes = {
   avatar: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  stats: PropTypes.objectOf(PropTypes.number),
+  stats: PropTypes.objectOf(PropTypes.number).isRequired,
   tag: PropTypes.string.isRequired,
   username: PropTypes.string.isRequired,
 };
