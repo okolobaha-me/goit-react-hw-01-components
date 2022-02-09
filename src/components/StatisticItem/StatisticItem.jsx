@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
+import s from './StatisticItem.module.css';
 
 function StatisticItem({ label, percentage }) {
   return (
-    <div className="item">
-      <span className="label">{`${label}`}</span>
-      <span className="percentage">{` ${percentage} %`}</span>
-    </div>
+    <li className={`${s.item}`}>
+      <span className={`${s.label}`}>{`${label}`}</span>
+      <span className={`${s.proc}`}>{` ${percentage} %`}</span>
+    </li>
   );
 }
 

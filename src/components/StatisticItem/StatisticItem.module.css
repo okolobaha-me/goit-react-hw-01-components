@@ -1,0 +1,16 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.item:nth-child(2n-1) {
+  background-color: rgba(186, 219, 231, 0.45);
+}
+
+.label {
+}
+
+.proc {
+}

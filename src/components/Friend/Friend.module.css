@@ -1,0 +1,38 @@
+.item {
+  padding: 15px;
+}
+
+.item:nth-child(2n-1) {
+  background-color: rgba(172, 193, 244, 0.54);
+}
+
+.avatar {
+  margin-left: 10px;
+}
+
+.name {
+  margin: 0 0 0 20px;
+  position: relative;
+}
+
+.name:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  transform: translateY(-50%);
+
+  position: absolute;
+  left: -15px;
+  top: 50%;
+}
+
+.name.online:before {
+  background-color: #5e9f2b;
+}
+
+.name.offline:before {
+  background-color: #880909;
+}

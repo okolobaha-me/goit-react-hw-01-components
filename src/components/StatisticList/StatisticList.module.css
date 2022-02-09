@@ -1,0 +1,10 @@
+.statList {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border: solid 1px #afb3c0;
+  box-shadow: 0 4px 5px 5px rgb(239, 242, 247);
+}

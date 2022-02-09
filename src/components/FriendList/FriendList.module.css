@@ -1,0 +1,12 @@
+.friendList {
+  margin: 0;
+  width: 100px;
+  height: 512px;
+  display: grid;
+  /*grid-template-columns: 100px;*/
+  grid-template-rows: repeat(5, 20%);
+  list-style: none;
+  padding: 0;
+  border: solid 1px #afb3c0;
+  box-shadow: 5px 5px 11px -1px rgba(175, 203, 225, 0.39);
+}
