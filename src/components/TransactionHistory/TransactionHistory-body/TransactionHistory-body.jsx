@@ -1,4 +1,4 @@
-import TransactionHistoryBodyRow from '../TransactionHistory-body-row/TransactionHistory-body-row';
+import TransactionHistoryBodyRow from './TransactionHistory-body-row';
 import PropTypes from 'prop-types';
 
 function TransactionHistoryBody({ transactions }) {

@@ -1,4 +1,4 @@
-import Friend from '../Friend/Friend';
+import Friend from './Friend';
 import s from './FriendList.module.css';
 import PropTypes from 'prop-types';
 

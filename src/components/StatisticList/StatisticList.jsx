@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import StatisticItem from '../StatisticItem/StatisticItem';
+import StatisticItem from './StatisticItem';
 import s from './StatisticList.module.css';
 
 function StatisticList({ title, stats }) {

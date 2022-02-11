@@ -1,4 +1,4 @@
-import TransactionHistoryBody from '../TransactionHistory-body/TransactionHistory-body';
+import TransactionHistoryBody from './TransactionHistory-body';
 import PropTypes from 'prop-types';
 import s from './TransactionHistory.module.css';
 

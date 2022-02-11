@@ -1,4 +1,4 @@
-import Container from './Container/Container';
+import Container from './Container';
 export const App = () => {
   return (
     <div>
